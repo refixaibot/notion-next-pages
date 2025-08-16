@@ -61,7 +61,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				workspace: {
+					bg: 'hsl(var(--workspace-bg))',
+					accent: 'hsl(var(--workflow-accent))'
+				},
+				success: {
+					bg: 'hsl(var(--success-bg))',
+					border: 'hsl(var(--success-border))'
+				},
+				integration: {
+					bg: 'hsl(var(--integration-bg))'
+				},
+				step: {
+					bg: 'hsl(var(--step-bg))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'workspace': 'var(--shadow-workspace)',
+				'card': 'var(--shadow-card)',
+				'sm': 'var(--shadow-sm)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
